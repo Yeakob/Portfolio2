@@ -1,0 +1,83 @@
+.nv
+{
+position: fixed;
+top: 0;
+z-index: 100;
+}
+.eff
+{
+    filter: hue-rotate(45deg);
+    transition-duration: .5s;
+}
+.eff:hover
+{
+    filter: hue-rotate(0deg);
+}
+
+.hh
+{
+    display: none;
+    
+}
+.anim:hover .child
+{
+    transform: translate(-10px,-10px);
+    
+}
+.child2
+{
+    filter: grayscale(10);
+    transition-duration: 1s;
+}
+.anim:hover .child2
+{
+    filter: grayscale(0);
+    
+}
+.box
+{
+    border: 4px solid rgb(45, 165, 45);
+    height:55px;
+    width: 55px;
+    transition-duration: .5s;
+}
+.box:hover
+{
+  transform: rotate(45deg);
+  border-radius: 50%;
+}
+.logo{
+    transition-duration: .5s;
+}
+.box:hover .logo
+{
+    transform: rotate(-45deg);
+}
+@media only screen and (max-width: 800px) {
+    .med{
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    .med2{
+      display: none;
+    }
+  }
+.ann
+{
+    animation: smnv;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+@keyframes smnv {
+    0%
+    {
+        margin-right: -70px;
+    }
+    100%
+    {
+        margin-right: 0px;
+    }
+}

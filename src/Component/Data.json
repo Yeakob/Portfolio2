@@ -1,0 +1,32 @@
+[
+    {
+        "title" : "Hospital Management Lite",
+        "text" : "Hospital Management system Consists of Doctors patients and administrator . Where easily interract with everyone easily",
+        "tag" : "React Tailwind Mongodb Express"
+    },
+    {
+        "title" : "Expence Tracker ",
+        "text" : "The total expence and income can be tracked by this web application . ",
+        "tag" : "React Tailwind Context API"
+    },
+    {
+        "title" : "Runner Game",
+        "text" : "2D runner game just made for fun and used some basic technologies",
+        "tag" : "HTML CSS Javascript"
+    },
+    {
+        "title" : "Eshop Website",
+        "text" : "Based on online shop where tried to implement payment gateway and online shopping",
+        "tag" : "React Tailwind Mongodb Express"
+    },
+    {
+        "title" : "Class Management System",
+        "text" : "The whole class management system where Students and teachers can communicate easily about classes",
+        "tag" : "React Java Mysql"
+    },
+    {
+        "title" : "Lifespring Clone ",
+        "text" : "The whole lifespring website implemented in MERN stack ",
+        "tag" : "React Tailwind Mongodb Express"
+    }
+]
