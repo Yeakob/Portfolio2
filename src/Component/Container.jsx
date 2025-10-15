@@ -1,5 +1,5 @@
 import React from 'react'
-import Img from '.553111871_1333700524790388_1763152271188372859_n.jpg'
+import Img from './553111871_1333700524790388_1763152271188372859_n.jpg'
 import { FiGithub ,FiExternalLink, FiInstagram ,FiTwitter , FiLinkedin , FiCodepen } from 'react-icons/fi';
 import { useState } from 'react';
 import Content1 from './Content1';
